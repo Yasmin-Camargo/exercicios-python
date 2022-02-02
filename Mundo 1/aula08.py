@@ -11,6 +11,6 @@ print ('A hipotenusa do triângulo retangulo é {:.2f}'.format(math.hypot(n2,n3)
 
 #Ler um angulo e mostrar o seno, cosseno e tangente
 n4 = float (input('Digite um ângulo: '))
-print ('Seno: {:.2f}'.format(math.sin(n4)))
-print ('Cosseno: {:.2f}'.format(math.cos(n4)))
-print ('Tangente: {:.2f}'.format(math.tan(n4)))
+print ('Seno: {:.2f}'.format(math.sin(math.radians(n4))))
+print ('Cosseno: {:.2f}'.format(math.cos(math.radians(n4))))
+print ('Tangente: {:.2f}'.format(math.tan(math.radians(n4))))
