@@ -1,9 +1,12 @@
 #usuario deve tentar acertar o número que o computador escolheu entre 0 e 5
 
 from random import randrange
+from time import sleep
 
 num = randrange(0,6)
-tentativa = int(input('Digite um número: '))
+tentativa = int(input('Digite um número entre 0 e 5: '))
+print ('\n Computador: pensando...')
+sleep(2)
 
 if (num == tentativa):
     print ('\nParabéns o número era {}! \nVocê acertou o número escolhido pelo computador!!'.format(num))
