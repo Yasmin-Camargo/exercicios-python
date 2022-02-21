@@ -9,12 +9,10 @@ else:
 
 
 #Ler ano de nascimento de um atleta e mostrar a categoria de acordo com a idade
-import datetime
+from datetime import date
 
-idade = int (input('Digite o seu ano de nascimento: '))
-ano = datetime.datetime.now()
-ano = int(ano.strftime("%Y"))
-print (ano)
+idade = int (input('\n\nDigite o seu ano de nascimento: '))
+ano = date.today().year
 idade = ano - idade
 
 print ('\nSua idade: {} anos'.format(idade))

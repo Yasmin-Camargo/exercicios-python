@@ -3,12 +3,12 @@ casa = float (input ('Digite o valor da sua casa: '))
 salario = float (input ('Digite o valor do seu salário: '))
 anos = int (input ('Digite a quantidade de anos que você pretende pagar: '))
 
-if (casa/anos > salario*(30/100)):
+if (casa/(anos*12) > salario*(30/100)):
     print ('\nSeu empréstimo foi negado!')
     print ('Sua prestação excedeu 30% do seu sálario')
 else:
     print ('\nSeu empréstimo foi aprovado!')
-    print ('\nValor da sua prestação mensal: R${:.2f}'.format(casa/anos))
+    print ('\nValor da sua prestação mensal: R${:.2f}'.format(casa/(anos*12)))
     
     
 #Ler um número e converter para binario, octal ou hexadecimal de acordo com o usuário
