@@ -1,9 +1,9 @@
 # exercicios-python
 Exercícios realizados durante as aulas do curso Python 3 da plataforma Curso em Vídeo
 
-Conteúdo:
+## Conteúdo:
 
-Mundo 1: 
+### Mundo 1: 
 - primeiros comandos
 - tipos primitivos de dados
 - método is
@@ -15,4 +15,12 @@ Mundo 1:
 - manipulação de texto
 - condicionais
 - cores
+
+### Mundo 2: 
+- if e else
+- elif
+- for
+- while
+- interrupção repetições while
+- f string
 
