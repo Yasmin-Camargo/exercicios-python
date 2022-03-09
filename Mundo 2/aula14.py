@@ -1,6 +1,6 @@
 from time import sleep
 
-#programa que lê o sexo e só aceita F/M
+#programa que lê o sexo e só aceita66 F/M
 sexo=1
 while (sexo != 'F' and sexo!= 'M'):
     sexo = str (input('Qual o seu sexo: ').upper().strip())
